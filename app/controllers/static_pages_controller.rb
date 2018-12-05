@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
-  def hello
-    render html: "Hello world!"
+  def home
+  end
+
+  def help
   end
 end
